@@ -32,6 +32,16 @@ Copiar o arquivo de exemplo `.env.example` para `.env` na raiz do projeto. Confi
 php artisan migrate
 ```
 
+#### Criar o usuário adim
+
+```
+php artisan db:seed
+
+Usuário: admin
+Email: admin@admin.com
+Senha: 123456789
+```
+
 #### Iniciar o servidor de desenvolvimento
 
 ```
